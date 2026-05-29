@@ -41,7 +41,7 @@ function selectFood(food) {
     const formattedDate = dateObj.toLocaleDateString('en-US', options);
     
     document.getElementById('finalDetails').innerHTML = 
-        `See you on <br><b>${formattedDate}</b><br>for some <b>${food}</b>!`;
+        `See you on <br><b>${formattedDate}</b><br>for some <b>${food}</b>! Screenshot this and send it to your girlfreind for confirmation.`;
     
     nextPage(4);
 }
